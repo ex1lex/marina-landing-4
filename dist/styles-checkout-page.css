@@ -1,0 +1,174 @@
+.checkout-page-block {
+  display: flex;
+  width: 85%;
+  margin: 98px auto 123px auto;
+  gap: 20px;
+  justify-content: space-between;
+}
+
+.checkout-billing-content {
+  width: 608px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-left: 0;
+}
+
+.checkout-billing-details-block,
+.checkout-product-desc {
+  display: flex;
+  flex-direction: column;
+  /* margin-left: auto;
+  margin-right: auto; */
+}
+
+.checkout-billing-details-block {
+  max-width: 453px;
+  width: 100%;
+}
+
+.checkout-product-desc {
+  width: 45%;
+}
+
+.name,
+.name2,
+.select-form {
+  border: 0.1rem solid #9f9f9f;
+  border-radius: 10px;
+}
+
+.name {
+  width: 211px;
+  height: 75px;
+}
+
+.name2,
+.select-form {
+  width: 453px;
+  height: 75px;
+  font-size: 16px;
+  color: #9f9f9f;
+}
+
+.checkout-product-desc-content {
+  height: 185px;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 35px;
+}
+
+.checkout-product-desc-title {
+  font-size: 24px;
+  font-weight: 500;
+}
+
+.pr-desc-item-name {
+  color: #9f9f9f;
+  font-size: 16px;
+}
+
+.item-name-word-style {
+  color: black;
+}
+
+.item-sum-number-total {
+  color: #b88e2f;
+  font-size: 24px;
+  font-weight: 600;
+  margin-bottom: 0;
+}
+
+.item-sum {
+  margin-bottom: 0;
+}
+
+.item-sum-subtotal {
+  margin-bottom: 25px;
+}
+
+.checkout-product-desc-block2 {
+  text-align: right;
+}
+
+.place-order-btn {
+  border: 0.1rem solid black;
+  border-radius: 15px;
+  max-width: 318px;
+  width: 100%;
+  height: 64px;
+  font-size: 20px;
+  font-weight: 400;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  align-self: center;
+  margin-top: 15px;
+}
+
+.line {
+  margin-bottom: 20px;
+}
+
+.bank1,
+.bank2,
+.bank3 {
+  position: relative;
+  width: 100%;
+  display: block;
+}
+
+.drop-dn-bank-content1,
+.drop-dn-bank-content2,
+.drop-dn-bank-content3 {
+  display: none;
+  z-index: 1;
+}
+
+.drop-dn-bank-input {
+  display: inline;
+}
+
+.bank1:has(input:checked) ~ .drop-dn-bank-content1,
+.bank2:has(input:checked) ~ .drop-dn-bank-content2,
+.bank3:has(input:checked) ~ .drop-dn-bank-content3 {
+  display: block;
+}
+
+/* Form */
+
+.checkout-form-name {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.checkout-last-name,
+.checkout-first-name {
+  display: flex;
+  flex-direction: column;
+}
+
+.checkout-billing-details-block {
+  align-items: center;
+}
+
+.checkout-billing-details-block label,
+.checkout-billing-title {
+  align-self: flex-start;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  font-weight: 600;
+}
+
+.checkout-billing-details-block input,
+.select-form {
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+.last-input {
+  margin-top: 15px;
+  font-size: 16px;
+  color: #9f9f9f;
+}

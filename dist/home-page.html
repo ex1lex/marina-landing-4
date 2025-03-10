@@ -1,0 +1,521 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-sacle=1.0" />
+    <title>furniture-store</title>
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <header class="content">
+      <div class="header-content">
+        <div class="header-logo">
+          <div class="logo-image"><img src="./img/logo-mini.png" /></div>
+          <h1 class="header-logo-name">Furniro</h1>
+        </div>
+        <div class="header-lists">
+          <ul class="header-list">
+            <li class="header-list-item"><a href="#">Home</a></li>
+            <li class="header-list-item">
+              <a href="./catalogue-page.html">Shop</a>
+            </li>
+            <li class="header-list-item"><a href="#">About</a></li>
+            <li class="header-list-item"><a href="#">Contact</a></li>
+          </ul>
+          <ul class="header-list header-icons">
+            <li class="header-list-item">
+              <a href="#"><img src="./img/account-icon.png" /></a>
+            </li>
+            <li class="header-list-item">
+              <a href="#"><img src="./img/search-icon.png" /></a>
+            </li>
+            <li class="header-list-item">
+              <a href="#"><img src="./img/heart-icon.png" /></a>
+            </li>
+            <li id="cart-button" class="header-list-item">
+              <a href="#"><img src="./img/cart-icon.png" /></a>
+            </li>
+          </ul>
+        </div>
+        <div id="hidden-cart-block" class="hidden-cart-block">
+          <div class="first">
+            <div class="cart-header">
+              <h2 class="cart-title">Shopping Cart</h2>
+              <div id="close-cart-btn" class="any-cart-image close-cart-btn">
+                <img src="./img/cart-icon-hidden.png" />
+              </div>
+            </div>
+            <div class="line horizontal-cart-line"></div>
+            <div class="cart-line">
+              <div class="any-cart-image"><img src="./img/cart-im1.png" /></div>
+              <div class="cart-line-line-text">
+                <p class="cart-line-item-name">Asgaard Sofa</p>
+                <p class="cart-line-item-quantity">
+                  1 x<span> </span
+                  ><span class="cart-line-item-quantity-style"
+                    >Rs. 250,000.00</span
+                  >
+                </p>
+              </div>
+              <button class="delete-btn">
+                <img src="./img/delete-btn.png" />
+              </button>
+            </div>
+            <div class="cart-line">
+              <div class="any-cart-image"><img src="./img/cart-im2.png" /></div>
+              <div class="cart-line-line-text">
+                <p class="cart-line-item-name">Casaliving Wood</p>
+                <p class="cart-line-item-quantity">
+                  1 x<span> </span
+                  ><span class="cart-line-item-quantity-style"
+                    >Rs. 270,000.00</span
+                  >
+                </p>
+              </div>
+              <button class="delete-btn">
+                <img src="./img/delete-btn.png" />
+              </button>
+            </div>
+          </div>
+          <div class="second">
+            <div class="cart-sum">
+              <p class="cart-sum-title">Subtotal</p>
+              <p class="cart-sum-number">Rs 520,000.00</p>
+            </div>
+            <div class="line cart-footer-line"></div>
+            <div class="cart-footer">
+              <form action="./cart-page.html">
+                <button class="cart-footer-btn">Cart</button>
+              </form>
+              <button class="cart-footer-btn">Checkout</button>
+              <form action="./product-comparison-page.html" target="_blank">
+                <button class="cart-footer-btn">Comparison</button>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+    <container class="content welcome-page">
+      <div class="welcome-page-block">
+        <div class="welcome-page-content">
+          <p class="welcome-page-word-style">New arrival</p>
+          <h1 class="welcome-page-content-logo">Discover our new collection</h1>
+          <p class="welcome-page-content-text">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit
+            tellus, luctus nec ullamcorper mattis.
+          </p>
+          <button class="welcome-page-button">BUY NOW</button>
+        </div>
+      </div>
+    </container>
+    <container class="content ass-page">
+      <div class="ass-page-overall">
+        <h1 class="ass-page-overall-title">Browse the range</h1>
+        <p class="ass-page-overall-text">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+        </p>
+        <div class="ass-page-overall-content">
+          <div class="ass-page-overall-content1">
+            <div class="ass-page-overall-image">
+              <img src="./img/dining.png" />
+            </div>
+            <h3 class="ass-page-overall-image-desc">Dining</h3>
+          </div>
+          <div class="ass-page-overall-content1">
+            <div class="ass-page-overall-image">
+              <img src="./img/living.png" />
+            </div>
+            <h3 class="ass-page-overall-image-desc">Living</h3>
+          </div>
+          <div class="ass-page-overall-content1">
+            <div class="ass-page-overall-image">
+              <img src="./img/bedroom.png" />
+            </div>
+            <h3 class="ass-page-overall-image-desc">Bedroom</h3>
+          </div>
+        </div>
+      </div>
+      <div class="content ass-page-main">
+        <h1 class="ass-page-main-block-title">Our products</h1>
+        <div class="ass-page-main-block">
+          <div class="ass-page-main-content">
+            <div class="ass-page-main-visible-block">
+              <div class="ass-page-main-image"><img src="./img/pr1.png" /></div>
+              <div class="ass-page-main-text-block">
+                <h3 class="ass-page-main-title">Syltherine</h3>
+                <p class="ass-page-main-text-style">Stylish cafe chair</p>
+                <div class="ass-page-main-sale-text">
+                  <h3 class="ass-page-main-price">Rp 2.500.000</h3>
+                  <p class="sale-text">Rp 3.500.000</p>
+                </div>
+              </div>
+              <div class="ass-page-main-hidden-block">
+                <div class="ass-page-main-hidden-content">
+                  <button class="ass-page-hidden-button">Add to cart</button>
+                  <div class="ass-page-hidden-links">
+                    <div class="ass-hidden-content-link">
+                      <a class="ass-page-hidden-link-text" href="#"
+                        ><img src="./img/ass-share.png" />Share</a
+                      >
+                    </div>
+                    <div class="ass-hidden-content-link">
+                      <a
+                        class="ass-page-hidden-link-text"
+                        href="./product-comparison-page.html"
+                        ><img src="./img/ass-compare.png" />Compare</a
+                      >
+                    </div>
+                    <div class="ass-hidden-content-link">
+                      <a class="ass-page-hidden-link-text" href="#"
+                        ><img src="./img/ass-heart.png" />Like</a
+                      >
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="ass-page-main-content">
+            <div class="ass-page-main-visible-block">
+              <div class="ass-page-main-image"><img src="./img/pr2.png" /></div>
+              <div class="ass-page-main-text-block">
+                <h3 class="ass-page-main-title">Leviosa</h3>
+                <p class="ass-page-main-text-style">Stylish cafe chair</p>
+                <h3 class="ass-page-main-price">Rp 2.500.000</h3>
+              </div>
+              <div class="ass-page-main-hidden-block">
+                <div class="ass-page-main-hidden-content">
+                  <button class="ass-page-hidden-button">Add to cart</button>
+                  <div class="ass-page-hidden-links">
+                    <div class="ass-hidden-content-link">
+                      <a class="ass-page-hidden-link-text" href="#"
+                        ><img src="./img/ass-share.png" />Share</a
+                      >
+                    </div>
+                    <div class="ass-hidden-content-link">
+                      <a
+                        class="ass-page-hidden-link-text"
+                        href="./product-comparison-page.html"
+                        ><img src="./img/ass-compare.png" />Compare</a
+                      >
+                    </div>
+                    <div class="ass-hidden-content-link">
+                      <a class="ass-page-hidden-link-text" href="#"
+                        ><img src="./img/ass-heart.png" />Like</a
+                      >
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="ass-page-main-content">
+            <div class="ass-page-main-visible-block">
+              <div class="ass-page-main-image"><img src="./img/pr3.png" /></div>
+              <div class="ass-page-main-text-block">
+                <h3 class="ass-page-main-title">Lolito</h3>
+                <p class="ass-page-main-text-style">Luxury big sofa</p>
+                <div class="ass-page-main-sale-text">
+                  <h3 class="ass-page-main-price">Rp 7.000.000</h3>
+                  <p class="sale-text">Rp 14.000.000</p>
+                </div>
+                <div class="ass-page-main-hidden-block">
+                  <div class="ass-page-main-hidden-content">
+                    <button class="ass-page-hidden-button">Add to cart</button>
+                    <div class="ass-page-hidden-links">
+                      <div class="ass-hidden-content-link">
+                        <a class="ass-page-hidden-link-text" href="#"
+                          ><img src="./img/ass-share.png" />Share</a
+                        >
+                      </div>
+                      <div class="ass-hidden-content-link">
+                        <a
+                          class="ass-page-hidden-link-text"
+                          href="./product-comparison-page.html"
+                          ><img src="./img/ass-compare.png" />Compare</a
+                        >
+                      </div>
+                      <div class="ass-hidden-content-link">
+                        <a class="ass-page-hidden-link-text" href="#"
+                          ><img src="./img/ass-heart.png" />Like</a
+                        >
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="ass-page-main-content">
+            <div class="ass-page-main-visible-block">
+              <div class="ass-page-main-image"><img src="./img/pr4.png" /></div>
+              <div class="ass-page-main-text-block">
+                <h3 class="ass-page-main-title">Respira</h3>
+                <p class="ass-page-main-text-style">
+                  Outdoor bar table and stool
+                </p>
+                <h3 class="ass-page-main-price">Rp 500.000</h3>
+              </div>
+              <div class="ass-page-main-hidden-block">
+                <div class="ass-page-main-hidden-content">
+                  <button class="ass-page-hidden-button">Add to cart</button>
+                  <div class="ass-page-hidden-links">
+                    <div class="ass-hidden-content-link">
+                      <a class="ass-page-hidden-link-text" href="#"
+                        ><img src="./img/ass-share.png" />Share</a
+                      >
+                    </div>
+                    <div class="ass-hidden-content-link">
+                      <a
+                        class="ass-page-hidden-link-text"
+                        href="./product-comparison-page.html"
+                        ><img src="./img/ass-compare.png" />Compare</a
+                      >
+                    </div>
+                    <div class="ass-hidden-content-link">
+                      <a class="ass-page-hidden-link-text" href="#"
+                        ><img src="./img/ass-heart.png" />Like</a
+                      >
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="ass-page-main-content">
+            <div class="ass-page-main-visible-block">
+              <div class="ass-page-main-image"><img src="./img/pr5.png" /></div>
+              <div class="ass-page-main-text-block">
+                <h3 class="ass-page-main-title">Grifo</h3>
+                <p class="ass-page-main-text-style">Night lamp</p>
+                <h3 class="ass-page-main-price">Rp 1.500.000</h3>
+              </div>
+              <div class="ass-page-main-hidden-block">
+                <div class="ass-page-main-hidden-content">
+                  <button class="ass-page-hidden-button">Add to cart</button>
+                  <div class="ass-page-hidden-links">
+                    <div class="ass-hidden-content-link">
+                      <a class="ass-page-hidden-link-text" href="#"
+                        ><img src="./img/ass-share.png" />Share</a
+                      >
+                    </div>
+                    <div class="ass-hidden-content-link">
+                      <a
+                        class="ass-page-hidden-link-text"
+                        href="./product-comparison-page.html"
+                        ><img src="./img/ass-compare.png" />Compare</a
+                      >
+                    </div>
+                    <div class="ass-hidden-content-link">
+                      <a class="ass-page-hidden-link-text" href="#"
+                        ><img src="./img/ass-heart.png" />Like</a
+                      >
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="ass-page-main-content">
+            <div class="ass-page-main-visible-block">
+              <div class="ass-page-main-image"><img src="./img/pr6.png" /></div>
+              <div class="ass-page-main-text-block">
+                <h3 class="ass-page-main-title">Muggo</h3>
+                <p class="ass-page-main-text-style">Small mug</p>
+                <h3 class="ass-page-main-price">Rp 150.000</h3>
+              </div>
+              <div class="ass-page-main-hidden-block">
+                <div class="ass-page-main-hidden-content">
+                  <button class="ass-page-hidden-button">Add to cart</button>
+                  <div class="ass-page-hidden-links">
+                    <div class="ass-hidden-content-link">
+                      <a class="ass-page-hidden-link-text" href="#"
+                        ><img src="./img/ass-share.png" />Share</a
+                      >
+                    </div>
+                    <div class="ass-hidden-content-link">
+                      <a
+                        class="ass-page-hidden-link-text"
+                        href="./product-comparison-page.html"
+                        ><img src="./img/ass-compare.png" />Compare</a
+                      >
+                    </div>
+                    <div class="ass-hidden-content-link">
+                      <a class="ass-page-hidden-link-text" href="#"
+                        ><img src="./img/ass-heart.png" />Like</a
+                      >
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="ass-page-main-content">
+            <div class="ass-page-main-visible-block">
+              <div class="ass-page-main-image"><img src="./img/pr7.png" /></div>
+              <div class="ass-page-main-text-block">
+                <h3 class="ass-page-main-title">Pingky</h3>
+                <p class="ass-page-main-text-style">Cute bed set</p>
+                <div class="ass-page-main-sale-text">
+                  <h3 class="ass-page-main-price">Rp 7.000.000</h3>
+                  <p class="sale-text">Rp 14.000.000</p>
+                </div>
+              </div>
+              <div class="ass-page-main-hidden-block">
+                <div class="ass-page-main-hidden-content">
+                  <button class="ass-page-hidden-button">Add to cart</button>
+                  <div class="ass-page-hidden-links">
+                    <div class="ass-hidden-content-link">
+                      <a class="ass-page-hidden-link-text" href="#"
+                        ><img src="./img/ass-share.png" />Share</a
+                      >
+                    </div>
+                    <div class="ass-hidden-content-link">
+                      <a
+                        class="ass-page-hidden-link-text"
+                        href="./product-comparison-page.html"
+                        ><img src="./img/ass-compare.png" />Compare</a
+                      >
+                    </div>
+                    <div class="ass-hidden-content-link">
+                      <a class="ass-page-hidden-link-text" href="#"
+                        ><img src="./img/ass-heart.png" />Like</a
+                      >
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="ass-page-main-content">
+            <div class="ass-page-main-visible-block">
+              <div class="ass-page-main-image"><img src="./img/pr8.png" /></div>
+              <div class="ass-page-main-text-block">
+                <h3 class="ass-page-main-title">Potty</h3>
+                <p class="ass-page-main-text-style">Minimalist flower pot</p>
+                <h3 class="ass-page-main-price">Rp 500.000</h3>
+              </div>
+            </div>
+          </div>
+        </div>
+        <button class="ass-page-button">Show more</button>
+      </div>
+    </container>
+    <container class="inspiration-page">
+      <div class="insp-page-block">
+        <div class="insp-page-text-content">
+          <h1 class="insp-page-title">50+ Beautiful rooms inspiration</h1>
+          <p class="insp-page-text">
+            Our designer already made a lot of beautiful prototipe of rooms that
+            inspire you
+          </p>
+          <button class="insp-page-btn">Explore More</button>
+        </div>
+        <div class="insp-page-img insp-page-img1">
+          <img src="./img/insp-image.png" />
+        </div>
+        <div class="insp-page-img insp-page-img2">
+          <img src="./img/insp-image2.png" />
+        </div>
+      </div>
+    </container>
+    <container class="content example-page">
+      <div class="example-page-block">
+        <div class="example-page-block-text">
+          <p class="example-page-text">Share your setup with</p>
+          <h1 class="example-page-title">#FuniroFurniture</h1>
+        </div>
+        <div class="ex-page-content-block">
+          <div class="ex-page-content1">
+            <div class="ex-page-block1">
+              <div class="example-page-img">
+                <img src="./img/ex-shelf.png" />
+              </div>
+              <div class="example-page-img">
+                <img src="./img/ex-computer.png" />
+              </div>
+            </div>
+            <div class="ex-page-block2">
+              <div class="example-page-img">
+                <img src="./img/ex-chair.png" />
+              </div>
+              <div class="example-page-img">
+                <img src="./img/ex-table.png" />
+              </div>
+            </div>
+          </div>
+          <div class="ex-page-content2">
+            <div class="example-page-img">
+              <img src="./img/ex-middle.png" />
+            </div>
+          </div>
+          <div class="ex-page-content3">
+            <div class="ex-page-block3">
+              <div class="example-page-img"><img src="./img/ex-bed.png" /></div>
+              <div class="example-page-img">
+                <img src="./img/ex-sun-table.png" />
+              </div>
+            </div>
+            <div class="ex-page-block4">
+              <div class="example-page-img">
+                <img src="./img/ex-picture.png" />
+              </div>
+              <div class="example-page-img">
+                <img src="./img/ex-kitchen.png" />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </container>
+    <container class="content info-page">
+      <div class="line"></div>
+      <div class="info-page-content">
+        <div class="info-page-block1">
+          <h4 class="info-page-logo-title">Funiro.</h4>
+          <p class="info-page-block1-text">
+            400 University Drive Suite 200 Coral Gables, FL 33134 USA
+          </p>
+        </div>
+        <div class="info-page-block2">
+          <p class="info-page-block-title">Links</p>
+          <ul class="info-page-list">
+            <li class="info-page-list-item">
+              <a href="#">Home</a>
+            </li>
+            <li class="info-page-list-item"><a href="#">Shop</a></li>
+            <li class="info-page-list-item"><a href="#">About</a></li>
+            <li class="info-page-list-item"><a href="#">Content</a></li>
+          </ul>
+        </div>
+        <div class="info-page-block3">
+          <p class="info-page-block-title">Help</p>
+          <ul class="info-page-list">
+            <li class="info-page-list-item"><a href="#">Payment Options</a></li>
+            <li class="info-page-list-item"><a href="#">Returns</a></li>
+            <li class="info-page-list-item">
+              <a href="#">Privacy Policies</a>
+            </li>
+          </ul>
+        </div>
+        <div class="info-page-block4">
+          <p class="info-page-block-title">Newsletter</p>
+          <div class="info-page-input-block">
+            <input
+              class="info-page-input"
+              type="email"
+              placeholder="Enter Your Email Address"
+            />
+            <button class="info-page-btn">SUBSCRIBE</button>
+          </div>
+        </div>
+      </div>
+    </container>
+    <footer class="content">
+      <div class="line"></div>
+      <p>2023 furino. All rights reverved</p>
+    </footer>
+    <script src="./app.js"></script>
+  </body>
+</html>

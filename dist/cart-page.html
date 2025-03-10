@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-sacle=1.0" />
+    <title>cart-page</title>
+    <link rel="stylesheet" href="./styles.css" />
+    <link rel="stylesheet" href="./styles-catalogue-page.css" />
+    <link rel="stylesheet" href="./styles-cart-page.css" />
+  </head>
+  <body>
+    <header class="content">
+      <div class="header-content">
+        <div class="header-logo">
+          <div class="logo-image"><img src="./img/logo-mini.png" /></div>
+          <h1 class="header-logo-name">Furniro</h1>
+        </div>
+        <div class="header-lists">
+          <ul class="header-list">
+            <li class="header-list-item">
+              <a href="./home-page.html">Home</a>
+            </li>
+            <li class="header-list-item">
+              <a href="./catalogue-page.html">Shop</a>
+            </li>
+            <li class="header-list-item"><a href="#">About</a></li>
+            <li class="header-list-item"><a href="#">Contact</a></li>
+          </ul>
+          <ul class="header-list header-icons">
+            <li class="header-list-item">
+              <a href="#"><img src="./img/account-icon.png" /></a>
+            </li>
+            <li class="header-list-item">
+              <a href="#"><img src="./img/search-icon.png" /></a>
+            </li>
+            <li class="header-list-item">
+              <a href="#"><img src="./img/heart-icon.png" /></a>
+            </li>
+            <li id="cart-button" class="header-list-item">
+              <a href="#"><img src="./img/cart-icon.png" /></a>
+            </li>
+          </ul>
+        </div>
+        <div id="hidden-cart-block" class="hidden-cart-block">
+          <div class="first">
+            <div class="cart-header">
+              <h2 class="cart-title">Shopping Cart</h2>
+              <div id="close-cart-btn" class="any-cart-image">
+                <img src="./img/cart-icon-hidden.png" />
+              </div>
+            </div>
+            <div class="line horizontal-cart-line"></div>
+            <div class="cart-line">
+              <div class="any-cart-image"><img src="./img/cart-im1.png" /></div>
+              <div class="cart-line-line-text">
+                <p class="cart-line-item-name">Asgaard Sofa</p>
+                <p class="cart-line-item-quantity">
+                  1 x<span> </span
+                  ><span class="cart-line-item-quantity-style"
+                    >Rs. 250,000.00</span
+                  >
+                </p>
+              </div>
+              <button class="delete-btn">
+                <img src="./img/delete-btn.png" />
+              </button>
+            </div>
+            <div class="cart-line">
+              <div class="any-cart-image"><img src="./img/cart-im2.png" /></div>
+              <div class="cart-line-line-text">
+                <p class="cart-line-item-name">Casaliving Wood</p>
+                <p class="cart-line-item-quantity">
+                  1 x<span> </span
+                  ><span class="cart-line-item-quantity-style"
+                    >Rs. 270,000.00</span
+                  >
+                </p>
+              </div>
+              <button class="delete-btn">
+                <img src="./img/delete-btn.png" />
+              </button>
+            </div>
+          </div>
+          <div class="second">
+            <div class="cart-sum">
+              <p class="cart-sum-title">Subtotal</p>
+              <p class="cart-sum-number">Rs 520,000.00</p>
+            </div>
+            <div class="line cart-footer-line"></div>
+            <div class="cart-footer">
+              <button class="cart-footer-btn">Cart</button>
+              <button class="cart-footer-btn">Checkout</button>
+              <form action="./product-comparison-page.html" target="_blank">
+                <button class="cart-footer-btn">Comparison</button>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+    <container class="content catalogue-page">
+      <div class="catalogue-page-content1">
+        <h2 class="catalogue-page-title">Cart</h2>
+        <div class="catalogue-page-content1-links">
+          <a class="home-page-link" href="./home-page.html">Home</a>
+          <a class="home-page-link home-page-link-sign">></a>
+          <a class="home-page-link home-page-link2" href="./cart-page.html"
+            >Cart</a
+          >
+        </div>
+      </div>
+    </container>
+    <container class="content cart">
+      <div class="cart-content">
+        <div class="cart-product-info-block">
+          <div class="cart-product-info-block-line1">
+            <div class="cart-line1-content">
+              <div class="cart-line-block0"></div>
+              <div class="cart-line-block1">
+                <p class="line1-text">Product</p>
+              </div>
+              <div class="cart-line-block2">
+                <p class="line1-text">Price</p>
+              </div>
+              <div class="cart-line-block3">
+                <p class="line1-text">Quantity</p>
+              </div>
+              <div class="cart-line-block4">
+                <p class="line1-text">Subtotal</p>
+              </div>
+            </div>
+          </div>
+          <div class="cart-product-info-block-line2">
+            <div class="cart-line1-content">
+              <div class="cart-image-line2 cart-line-block0">
+                <img src="./img/cart-image.png" />
+              </div>
+              <div class="cart-line-block1">
+                <p class="line2-text">Assgaard Sofa</p>
+              </div>
+              <div class="cart-line-block2">
+                <p class="line2-text">Rs. 250,000.00</p>
+              </div>
+              <div class="cart-line-block3 cart-line-quantity">
+                <input class="cart-quantity" type="number" placeholder="1" />
+              </div>
+              <div class="cart-line-block4">
+                <p class="line2-text line2-text-subtotal">Rs. 250,000.00</p>
+                <div class="delete-product-btn">
+                  <img src="./img/trash-icon.png" />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="cart-price-block">
+          <h1 class="cart-price-block-title">Cart Totals</h1>
+          <div class="cart-price-subtotal">
+            <p class="cart-price-text">Subtotal</p>
+            <p class="cart-price-subtotal-sum">Rs. 250,000.00</p>
+          </div>
+          <div class="cart-price-total">
+            <p class="cart-price-text">Total</p>
+            <p class="cart-price-total-sum">Rs. 250,000.00</p>
+          </div>
+          <a class="checkout-btn" href="checkout-page.html">Check Out</a>
+        </div>
+      </div>
+    </container>
+    <container class="content ass-page">
+      <div class="ass-page-promises">
+        <div class="ass-page-promise">
+          <div class="ass-page-promise-image">
+            <img src="./img/quality.png" />
+          </div>
+          <div class="ass-page-promise-text-block">
+            <h3 class="ass-page-promise-title">High Quality</h3>
+            <p class="ass-page-promise-text">crafted from top materials</p>
+          </div>
+        </div>
+        <div class="ass-page-promise">
+          <div class="ass-page-promise-image">
+            <img src="./img/guarantee.png" />
+          </div>
+          <div class="ass-page-promise-text-block">
+            <h3 class="ass-page-promise-title">Warranty Protection</h3>
+            <p class="ass-page-promise-text">over 2 years</p>
+          </div>
+        </div>
+        <div class="ass-page-promise">
+          <div class="ass-page-promise-image">
+            <img src="./img/shipping.png" />
+          </div>
+          <div class="ass-page-promise-text-block">
+            <h3 class="ass-page-promise-title">Free Shipping</h3>
+            <p class="ass-page-promise-text">order over 150$</p>
+          </div>
+        </div>
+        <div class="ass-page-promise">
+          <div class="ass-page-promise-image">
+            <img src="./img/customer-support.png" />
+          </div>
+          <div class="ass-page-promise-text-block">
+            <h3 class="ass-page-promise-title">24/7 Support</h3>
+            <p class="ass-page-promise-text">dedicated support</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </container>
+    <container class="content info-page">
+      <div class="line"></div>
+      <div class="info-page-content">
+        <div class="info-page-block1">
+          <h4 class="info-page-logo-title">Funiro.</h4>
+          <p class="info-page-block1-text">
+            400 University Drive Suite 200 Coral Gables, FL 33134 USA
+          </p>
+        </div>
+        <div class="info-page-block2">
+          <p class="info-page-block-title">Links</p>
+          <ul class="info-page-list">
+            <li class="info-page-list-item">
+              <a href="#">Home</a>
+            </li>
+            <li class="info-page-list-item"><a href="#">Shop</a></li>
+            <li class="info-page-list-item"><a href="#">About</a></li>
+            <li class="info-page-list-item"><a href="#">Content</a></li>
+          </ul>
+        </div>
+        <div class="info-page-block3">
+          <p class="info-page-block-title">Help</p>
+          <ul class="info-page-list">
+            <li class="info-page-list-item"><a href="#">Payment Options</a></li>
+            <li class="info-page-list-item"><a href="#">Returns</a></li>
+            <li class="info-page-list-item">
+              <a href="#">Privacy Policies</a>
+            </li>
+          </ul>
+        </div>
+        <div class="info-page-block4">
+          <p class="info-page-block-title">Newsletter</p>
+          <div class="info-page-input-block">
+            <input
+              class="info-page-input"
+              type="email"
+              placeholder="Enter Your Email Address"
+            />
+            <button class="info-page-btn">SUBSCRIBE</button>
+          </div>
+        </div>
+      </div>
+    </container>
+    <footer>
+      <div class="line footer-line"></div>
+      <p>2023 furino. All rights reverved</p>
+    </footer>
+    <script src="./app.js"></script>
+  </body>
+</html>
