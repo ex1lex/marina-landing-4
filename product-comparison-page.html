@@ -1,0 +1,320 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-sacle=1.0" />
+    <title>product-comparison-page</title>
+    <link rel="stylesheet" href="./styles.css" />
+    <link rel="stylesheet" href="./styles-catalogue-page.css" />
+    <link rel="stylesheet" href="./styles-product-comparison.css" />
+    <link rel="stylesheet" href="./styles-single-product-page.css" />
+  </head>
+  <body>
+    <header class="content">
+      <div class="header-content">
+        <div class="header-logo">
+          <div class="logo-image"><img src="./img/logo-mini.png" /></div>
+          <h1 class="header-logo-name">Furniro</h1>
+        </div>
+        <div class="header-lists">
+          <ul class="header-list">
+            <li class="header-list-item">
+              <a href="./home-page.html">Home</a>
+            </li>
+            <li class="header-list-item">
+              <a href="./catalogue-page.html">Shop</a>
+            </li>
+            <li class="header-list-item"><a href="#">About</a></li>
+            <li class="header-list-item"><a href="#">Contact</a></li>
+          </ul>
+          <ul class="header-list header-icons">
+            <li class="header-list-item">
+              <a href="#"><img src="./img/account-icon.png" /></a>
+            </li>
+            <li class="header-list-item">
+              <a href="#"><img src="./img/search-icon.png" /></a>
+            </li>
+            <li class="header-list-item">
+              <a href="#"><img src="./img/heart-icon.png" /></a>
+            </li>
+            <li id="cart-button" class="header-list-item">
+              <a href="#"><img src="./img/cart-icon.png" /></a>
+            </li>
+          </ul>
+        </div>
+        <div id="hidden-cart-block" class="hidden-cart-block">
+          <div class="first">
+            <div class="cart-header">
+              <h2 class="cart-title">Shopping Cart</h2>
+              <div id="close-cart-btn" class="any-cart-image">
+                <img src="./img/cart-icon-hidden.png" />
+              </div>
+            </div>
+            <div class="line horizontal-cart-line"></div>
+            <div class="cart-line">
+              <div class="any-cart-image"><img src="./img/cart-im1.png" /></div>
+              <div class="cart-line-line-text">
+                <p class="cart-line-item-name">Asgaard Sofa</p>
+                <p class="cart-line-item-quantity">
+                  1 x<span> </span
+                  ><span class="cart-line-item-quantity-style"
+                    >Rs. 250,000.00</span
+                  >
+                </p>
+              </div>
+              <button class="delete-btn">
+                <img src="./img/delete-btn.png" />
+              </button>
+            </div>
+            <div class="cart-line">
+              <div class="any-cart-image"><img src="./img/cart-im2.png" /></div>
+              <div class="cart-line-line-text">
+                <p class="cart-line-item-name">Casaliving Wood</p>
+                <p class="cart-line-item-quantity">
+                  1 x<span> </span
+                  ><span class="cart-line-item-quantity-style"
+                    >Rs. 270,000.00</span
+                  >
+                </p>
+              </div>
+              <button class="delete-btn">
+                <img src="./img/delete-btn.png" />
+              </button>
+            </div>
+          </div>
+          <div class="second">
+            <div class="cart-sum">
+              <p class="cart-sum-title">Subtotal</p>
+              <p class="cart-sum-number">Rs 520,000.00</p>
+            </div>
+            <div class="line cart-footer-line"></div>
+            <div class="cart-footer">
+              <form action="./cart-page.html">
+                <button class="cart-footer-btn">Cart</button>
+              </form>
+              <button class="cart-footer-btn">Checkout</button>
+              <form action="./product-comparison-page.html" target="_blank">
+                <button class="cart-footer-btn">Comparison</button>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+    <container class="content catalogue-page">
+      <div class="catalogue-page-content1">
+        <h2 class="catalogue-page-title">Product Comparison</h2>
+        <div class="catalogue-page-content1-links">
+          <a class="home-page-link" href="./home-page.html">Home</a>
+          <a class="home-page-link home-page-link-sign">></a>
+          <a class="home-page-link home-page-link2" href="./catalogue-page.html"
+            >Comparison</a
+          >
+        </div>
+      </div>
+      <div class="comparison-block">
+        <div class="product-page-link-block">
+          <h2 class="product-page-link-block-title" href="./single-product-page.html">Go to Product page for more Products</h2>
+          <a class="product-page-link" href="./catalogue-page.html">View More</a>
+        </div>
+        <div class="comparison-block-actual-product">
+          <div class="product-image"><img src="./img/comparison-page-image.png"></div>
+          <h3 class="comparison-page-product-name">Asgaard Sofa</h3>
+        <h3 class="comparison-page-product-price">Rs. 250,000.00</h3>
+        <div class="pr-page-rating">
+          <p>4.7</p>
+          <div class="rate-stars-icon">
+            <img src="./img/rate-stars.png" />
+          </div>
+          <div class="vertical-line"></div>
+          <p class="pr-page-rating-text">204 Review</p>
+        </div>
+      </div>
+        <div class="comparison-block-actual-product">
+        <div class="product-image"><img src="./img/comparison-page-image.png"></div>
+        <h3 class="comparison-page-product-name">Outdoor Sofa Set</h3>
+      <h3 class="comparison-page-product-price">Rs. 250,000.00</h3>
+      <div class="pr-page-rating">
+        <p>4.2</p>
+        <div class="rate-stars-icon">
+          <img src="./img/rate-stars.png" />
+        </div>
+        <div class="vertical-line"></div>
+        <p class="pr-page-rating-text">145 Review</p>
+      </div>
+        </div>
+    <div class="add-product-option">
+      <h2 class="add-product-text">Add a Product</h2>
+      <a class="add-product-btn" href="#">Choose a product +</a>
+    </div>
+      </div>
+    </container>
+    <container class="content features-page">
+  <div class="line feat-line"></div>
+  <div class="general-features-list">
+    <table>
+      <tbody>
+        <tr>
+          <th class="table-first-column table-row-name"><h3 class="feature-name">General</h3></th>
+          <th class="table-row-feat"><h3 class="feature-name"></h3></th>
+          <th class="table-row-feat"><h3 class="feature-name"></h3></th>
+        </tr>
+        <tr>
+          <td class="table-first-column table-row-name"><p>Sales Package</p></td>
+          <td class="table-row-feat"><p>1 sectional sofa</p></td>
+          <td class="table-row-feat"><p>1 Three Seater, 2 single Seater</p></td>
+        </tr>
+        <tr>
+          <td class="table-first-column table-row-name"><p>Model Number</p></td>
+          <td class="table-row-feat"><p>HJGTFTFGVHKL</p></td>
+          <td class="table-row-feat"><p>GDGAKNTFBDKLNBYD</p></td>
+        </tr>
+        <tr>
+          <td class="table-first-column table-row-name"><p>Secondary Material</p></td>
+          <td class="table-row-feat"><p>Solid Wood</p></td>
+          <td class="table-row-feat"><p>Solid Wood</p></td>
+        </tr>
+        <tr>
+          <td class="table-first-column table-row-name"><p>Configuration</p></td>
+          <td class="table-row-feat"><p>L-shaped</p></td>
+          <td class="table-row-feat"><p>L-shaped</p></td>
+        </tr>
+        <tr>
+          <td class="table-first-column table-row-name"><p>Upholstery Material</p></td>
+          <td class="table-row-feat"><p>Fabric+Cotton</p></td>
+          <td class="table-row-feat"><p>Fabric+Cotton</p></td>
+        </tr>
+        <tr>
+          <td class="table-first-column table-row-name"><p>Upholstery Color</p></td>
+          <td class="table-row-feat"><p>Bright Grey & Lion</p></td>
+          <td class="table-row-feat"><p>Bright Grey & Lion</p></td>
+        </tr>
+      </tbody>
+    </table>
+      <table>
+        <tbody>
+          <tr>
+            <th class="table-first-column table-row-name"><h3 class="feature-name">Product</h3></th>
+            <th class="table-row-feat"><h3 class="feature-name"></h3></th>
+            <th class="table-row-feat"><h3 class="feature-name"></h3></th>
+          </tr>
+          <tr>
+            <td class="table-first-column table-row-name"><p>Filling Material</p></td>
+            <td class="table-row-feat"><p>Foam</p></td>
+            <td class="table-row-feat"><p>Matte</p></td>
+          </tr>
+          <tr>
+            <td class="table-first-column table-row-name"><p>Finish Type</p></td>
+            <td class="table-row-feat"><p>Bright Grey & Lion</p></td>
+            <td class="table-row-feat"><p>Bright Grey & Lion</p></td>
+          </tr>
+          <tr>
+            <td class="table-first-column table-row-name"><p>Adjustable Headrest</p></td>
+            <td class="table-row-feat"><p>No</p></td>
+            <td class="table-row-feat"><p>Yes</p></td>
+          </tr>
+          <tr>
+            <td class="table-first-column table-row-name"><p>Maximum Load Capacity</p></td>
+            <td class="table-row-feat"><p>280 kg</p></td>
+            <td class="table-row-feat"><p>300 kg</p></td>
+          </tr>
+          <tr>
+            <td class="table-first-column table-row-name"><p>Origin of Manufacture</p></td>
+            <td class="table-row-feat"><p>India</p></td>
+            <td class="table-row-feat"><p>India</p></td>
+          </tr>
+        </tbody>
+      </table>
+  </div>
+</container>
+    <container class="content ass-page">
+        <div class="ass-page-promises">
+          <div class="ass-page-promise">
+            <div class="ass-page-promise-image">
+              <img src="./img/quality.png" />
+            </div>
+            <div class="ass-page-promise-text-block">
+              <h3 class="ass-page-promise-title">High Quality</h3>
+              <p class="ass-page-promise-text">crafted from top materials</p>
+            </div>
+          </div>
+          <div class="ass-page-promise">
+            <div class="ass-page-promise-image">
+              <img src="./img/guarantee.png" />
+            </div>
+            <div class="ass-page-promise-text-block">
+              <h3 class="ass-page-promise-title">Warranty Protection</h3>
+              <p class="ass-page-promise-text">over 2 years</p>
+            </div>
+          </div>
+          <div class="ass-page-promise">
+            <div class="ass-page-promise-image">
+              <img src="./img/shipping.png" />
+            </div>
+            <div class="ass-page-promise-text-block">
+              <h3 class="ass-page-promise-title">Free Shipping</h3>
+              <p class="ass-page-promise-text">order over 150$</p>
+            </div>
+          </div>
+          <div class="ass-page-promise">
+            <div class="ass-page-promise-image">
+              <img src="./img/customer-support.png" />
+            </div>
+            <div class="ass-page-promise-text-block">
+              <h3 class="ass-page-promise-title">24/7 Support</h3>
+              <p class="ass-page-promise-text">dedicated support</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </container>
+    <container class="content info-page">
+      <div class="line"></div>
+      <div class="info-page-content">
+        <div class="info-page-block1">
+          <h4 class="info-page-logo-title">Funiro.</h4>
+          <p class="info-page-block1-text">
+            400 University Drive Suite 200 Coral Gables, FL 33134 USA
+          </p>
+        </div>
+        <div class="info-page-block2">
+          <p class="info-page-block-title">Links</p>
+          <ul class="info-page-list">
+            <li class="info-page-list-item">
+              <a href="#">Home</a>
+            </li>
+            <li class="info-page-list-item"><a href="#">Shop</a></li>
+            <li class="info-page-list-item"><a href="#">About</a></li>
+            <li class="info-page-list-item"><a href="#">Content</a></li>
+          </ul>
+        </div>
+        <div class="info-page-block3">
+          <p class="info-page-block-title">Help</p>
+          <ul class="info-page-list">
+            <li class="info-page-list-item"><a href="#">Payment Options</a></li>
+            <li class="info-page-list-item"><a href="#">Returns</a></li>
+            <li class="info-page-list-item">
+              <a href="#">Privacy Policies</a>
+            </li>
+          </ul>
+        </div>
+        <div class="info-page-block4">
+          <p class="info-page-block-title">Newsletter</p>
+          <div class="info-page-input-block">
+            <input
+              class="info-page-input"
+              type="email"
+              placeholder="Enter Your Email Address"
+            />
+            <button class="info-page-btn">SUBSCRIBE</button>
+          </div>
+        </div>
+      </div>
+    </container>
+    <footer>
+      <div class="line footer-line"></div>
+      <p>2023 furino. All rights reverved</p>
+    </footer>
+    <script src="./app.js"></script>
+  </body>
+</html>

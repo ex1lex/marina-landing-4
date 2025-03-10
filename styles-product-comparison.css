@@ -1,0 +1,141 @@
+/* Comparison-block */
+
+.comparison-block {
+  display: flex;
+  margin: 34px auto 65px auto;
+  justify-content: space-between;
+  width: 85%;
+}
+
+.product-page-link-block-title {
+  font-size: 28px;
+  font-weight: 500;
+  line-height: 35px;
+  max-width: 220px;
+  width: 100%;
+}
+
+.product-page-link {
+  font-size: 20px;
+  color: #727272;
+  font-weight: 400;
+  border-bottom: 0.17rem solid #727272;
+}
+
+.comparison-block-actual-product {
+  display: flex;
+  flex-direction: column;
+}
+
+.comparison-page-product-name {
+  font-size: 24px;
+  font-weight: 500;
+  margin-bottom: 0;
+}
+
+.comparison-page-product-price {
+  font-size: 18px;
+  font-weight: 500;
+  margin: 10px 0 0 0;
+}
+
+.pr-page-rating {
+  gap: 5px;
+}
+
+.add-product-option {
+  display: flex;
+  flex-direction: column;
+}
+
+.add-product-text {
+  font-size: 24px;
+  font-weight: 600;
+}
+
+.add-product-btn {
+  display: flex;
+  align-items: center;
+  color: white;
+  background-color: #b88e2f;
+  height: 39px;
+  width: 242px;
+  border-radius: 6px;
+  padding-left: 18px;
+}
+
+/* Feauture-list */
+
+.feat-line {
+  max-width: 90%;
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.general-features-list {
+  display: flex;
+  width: 80%;
+  margin-left: 20px;
+  margin-bottom: 96px;
+  align-items: center;
+  flex-direction: column;
+}
+
+td {
+  font-size: 20px;
+  margin-top: 35px;
+  margin-bottom: 0;
+}
+
+.feature-name {
+  font-size: 28px;
+  font-weight: 500;
+  margin-bottom: 0;
+  margin-top: 40px;
+  display: flex;
+  align-self: start;
+}
+
+table {
+  width: 80%;
+  padding-bottom: 100px;
+  margin-bottom: 0;
+  margin-top: 0;
+}
+
+tbody {
+  width: 100%;
+  display: table;
+}
+
+td,
+th {
+  border-right: 0.1rem solid #e8e8e8;
+  padding-right: 10px;
+}
+
+.table-row-feat {
+  display: table-cell;
+  width: 35%;
+  padding-left: 20px;
+  align-items: center;
+  justify-content: center;
+}
+
+.table-row-feat p {
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.table-row-name,
+.table-first-column {
+  width: 25%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+th {
+  padding-bottom: 10px;
+}
